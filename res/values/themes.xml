@@ -198,7 +198,7 @@
     <style name="Theme.Settings.Home" parent="Theme.Settings.HomeBase">
         <item name="colorPrimaryDark">@*android:color/primary_dark_device_default_settings_light</item>
         <item name="android:windowLightStatusBar">true</item>
-        <item name="android:navigationBarDividerColor">@*android:color/ripple_material_light</item>
+        <item name="android:navigationBarDividerColor">@null</item>
         <!-- Homepage should follow device default design, the values is same as device default theme.-->
         <item name="android:navigationBarColor">@android:color/white</item>
         <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
